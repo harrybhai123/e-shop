@@ -82,4 +82,4 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ### 2
 ![cartpayment img](./RedmePic/cartpayment.png)
 
-[Visit our website](e-shop-harry.netlify.app)
+[Visit our website]([e-shop-harry.netlify.app](https://e-shop-harry.netlify.app/))
