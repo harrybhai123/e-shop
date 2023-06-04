@@ -46,25 +46,25 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 # Screenshot
 
 ## Home Page
-#1
+### 1
 ![homeimg](./RedmePic/Home1.png)
-#2
+### 2
 ![homeimg](./RedmePic/Home2.png)
-#3
+### 3
 ![homeimg](./RedmePic/Home3.png)
-#4
+### 4
 ![homeimg](./RedmePic/Home4.png)
 
-<h2>HMen Page </h2> 
-#1
+## Men Page
+### 1
 ![Men_img](./RedmePic/Men.png)
 
-<h2>Women Page </h2> 
-#1
+## Women Page
+### 1
 ![Womenimg](./RedmePic/Women.png)
 
-<h2>Kid Page </h2>
-#1
+## Kid Page
+### 1
 ![Kidimg](./RedmePic/Kid.png)
 
 [Visit our website](e-shop-harry.netlify.app)
