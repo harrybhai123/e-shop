@@ -1,0 +1,307 @@
+/* Footer container */
+.footer {
+    background-color: lightgray;
+    padding: 60px 100px;
+    
+    /* Footer top section */
+    .top {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+      /* Footer item */
+      .item {
+        flex-basis: 22%;
+        margin-bottom: 30px;
+        
+        /* Footer item title */
+        h1 {
+          font-size: 24px;
+          margin-bottom: 20px;
+          color: #333;
+        }
+        
+        /* Footer item links */
+        span {
+          display: block;
+          margin-bottom: 10px;
+          color: #000;
+          cursor: pointer;
+          
+          &:hover {
+            color: #333;
+          }
+
+          a{
+            text-decoration: none;
+            display: block;
+            margin-bottom: 10px;
+            color: #000;
+            
+            &:hover {
+              color: #333;
+            }
+          }
+        }
+        
+        /* Footer item description */
+        .footerPara {
+          font-size: 14px;
+          line-height: 22px;
+          width: 400px;
+          color: #000;
+          margin-bottom: 20px;
+        }
+        
+        /* Footer item contact form */
+        .text {
+          display: flex;
+          align-items: center;
+          margin-top: 20px;
+          
+          label {
+            font-size: 14px;
+            color: #000;
+            margin-right: 10px;
+          }
+          
+          input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            margin-right: 10px;
+            
+            &:focus {
+              outline: none;
+            }
+          }
+          
+          button {
+            padding: 10px 15px;
+            background-color: #333;
+            color: #ffffff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            
+            &:hover {
+              background-color: #555;
+            }
+          }
+         
+        }
+        p{
+          color: #000;
+        }
+      }
+      
+      /* Footer item 3 */
+      .footer3 {
+        flex-basis: 32%;
+        
+        /* Footer item description */
+        .footerPara {
+          font-size: 16px;
+          line-height: 26px;
+          color: #000;
+          margin-bottom: 20px;
+        }
+      }
+
+    }
+    
+    /* Footer bottom section */
+    .bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 50px;
+      color: #ccc;
+      
+      /* Footer left section */
+      .left {
+        display: flex;
+        align-items: center;
+        
+        /* Footer logo */
+        .logo {
+          font-size: 24px;
+          font-weight: bold;
+          color: #333;
+          text-decoration: none;
+          margin-right: 20px;
+          
+          &:hover {
+            color: #555;
+          }
+        }
+        
+        /* Footer copyright */
+        .copyright {
+          font-size: 14px;
+          color: #000;
+        }
+      }
+      
+      /* Footer right section */
+      .right {
+        display: flex;
+        align-items: center;
+        
+        /* Footer payment icons */
+        img {
+          width: 150px;
+          height: auto;
+        }
+      }
+    }
+
+
+
+
+
+
+
+
+
+    
+    
+
+  }
+  @media only screen and (max-width: 768px) {
+
+    .footer {
+      padding: 30px;
+      .top {
+        justify-content: center;
+        
+        .item {
+          flex-basis: 45%;
+          margin-bottom: 20px;
+          
+          h1 {
+            font-size: 20px;
+            margin-bottom: 15px;
+          }
+          
+          .footerPara {
+            width: 100%;
+            margin-bottom: 15px;
+          }
+          
+          .text {
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 15px;
+            
+            label {
+              margin-bottom: 5px;
+            }
+            
+            input {
+              margin-bottom: 10px;
+            }
+          }
+        }
+        
+        .footer3 {
+          flex-basis: 100%;
+          
+          .footerPara {
+            margin-bottom: 15px;
+          }
+        }
+      }
+      
+      .bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        
+        .left {
+          margin-bottom: 20px;
+        }
+        
+        .right {
+          margin-top: 20px;
+        }
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+  
+    .footer {
+      padding: 20px;
+      
+      .top {
+        justify-content: center;
+        
+        .item {
+          flex-basis: 100%;
+          margin-bottom: 15px;
+          
+          h1 {
+            font-size: 18px;
+            margin-bottom: 10px;
+          }
+          
+          .footerPara {
+            font-size: 12px;
+            line-height: 18px;
+            width: 100%;
+            margin-bottom: 10px;
+          }
+          
+          .text {
+            margin-top: 10px;
+            
+            label {
+              font-size: 12px;
+              margin-right: 5px;
+            }
+            
+            input {
+              margin-right: 5px;
+            }
+            
+            button {
+              padding: 8px 12px;
+              font-size: 12px;
+              margin-right: 0;
+            }
+          }
+        }
+        
+        .footer3 {
+          flex-basis: 100%;
+          
+          .footerPara {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+            
+          }
+        }
+      }
+      
+      .bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+        
+        .left {
+          margin-bottom: 10px;
+        }
+        
+        .right {
+          margin-top: 10px;
+          
+          img {
+            width: 120px;
+          }
+        }
+      }
+    }
+  }

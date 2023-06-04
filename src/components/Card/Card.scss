@@ -1,0 +1,94 @@
+.card {
+  width: 230px;
+  // max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  // gap: 10px;
+  margin-bottom: 50px;
+  margin: 0 10px;
+
+  .image {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+
+    &:hover {
+      .secondImg {
+        z-index: 2;
+      }
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      border-radius: 10px;
+    }
+
+    .mainImg {
+      z-index: 1;
+    }
+  }
+
+  h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+  }
+
+  .priceNrating {
+    display: flex;
+    gap: 20px;
+    .oldPrice {
+      span {
+        text-decoration: line-through;
+      }
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 400;
+      text-transform: capitalize;
+      margin: 0;
+      padding: 0;
+      margin-bottom: 8px;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

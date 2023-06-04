@@ -1,0 +1,87 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  position: relative;
+
+  video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.3;
+  }
+
+  h1 {
+    font-size: 4rem;
+    color: white;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  p {
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .hero-btns {
+    display: flex;
+    align-items: center;
+
+    .btn {
+      font-size: 1.2rem;
+      font-weight: 600;
+      padding: 1em 2.5em;
+      margin-right: 1em;
+      border-radius: 50px;
+      text-transform: uppercase;
+      transition: all 0.2s ease-in-out;
+
+      &--primary {
+        background: #ffdd00;
+        color: #333;
+        border: none;
+
+        &:hover {
+          background: #333;
+          color: #ffdd00;
+          cursor: pointer;
+        }
+      }
+
+      &--large {
+        font-size: 1.5rem;
+        padding: 1.5rem 3rem;
+      }
+    }
+  }
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+  .hero-container {
+    height: 60vh;
+    .hero-btns {
+      .btn {
+        font-size: 1rem;
+        padding: 0.5em 1em;
+      }
+    }
+  }
+
+  .hero-container h1 {
+    font-size: 2rem;
+  }
+
+  .hero-container p {
+    font-size: 1rem;
+  }
+}

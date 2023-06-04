@@ -1,0 +1,33 @@
+.sliding-text-container {
+  display: flex;
+  align-items: center;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+
+    .sliding-text {
+        white-space: nowrap;
+        transition: transform 1s linear;
+      }
+      
+      .slide {
+        animation: slide 60s linear infinite;
+      }
+      
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-70%);
+        }
+      }
+  }
+  
+
+  

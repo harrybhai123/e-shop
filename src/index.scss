@@ -1,0 +1,51 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #1c1c1c;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll; /* Fallback */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #999 #fff; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  &::-webkit-scrollbar {
+    width: 6px; /* Safari and Chrome */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #fff; /* Safari and Chrome */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #999; /* Safari and Chrome */
+    border-radius: 6px; /* Safari and Chrome */
+  }
+  &::-moz-scrollbar {
+    width: 6px; /* Firefox */
+  }
+  &::-moz-scrollbar-track {
+    background-color: #fff; /* Firefox */
+  }
+  &::-moz-scrollbar-thumb {
+    background-color: #999; /* Firefox */
+    border-radius: 6px; /* Firefox */
+  }
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  img{
+    max-width: 100%;
+  }  
+}

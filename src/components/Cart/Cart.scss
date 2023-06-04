@@ -1,0 +1,249 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width:35%;
+  position: absolute;
+  right: 20px;
+  top: 60px;
+  z-index: 999;
+  background-color: #ffffff;
+  color: #1c1c1c;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display: block;
+  max-height: 700px;
+  overflow-y: scroll; /* Fallback */
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: #999 #fff; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  &::-webkit-scrollbar {
+    width: 6px; /* Safari and Chrome */
+  }
+  &::-webkit-scrollbar-track {
+    background-color: #fff; /* Safari and Chrome */
+  }
+  &::-webkit-scrollbar-thumb {
+    background-color: #999; /* Safari and Chrome */
+    border-radius: 6px; /* Safari and Chrome */
+  }
+  &::-moz-scrollbar {
+    width: 6px; /* Firefox */
+  }
+  &::-moz-scrollbar-track {
+    background-color: #fff; /* Firefox */
+  }
+  &::-moz-scrollbar-thumb {
+    background-color: #999; /* Firefox */
+    border-radius: 6px; /* Firefox */
+  }
+
+  &.hidden {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      margin-right: 1rem;
+    }
+
+    .details {
+      display: flex;
+      flex-direction: column;
+      h1 {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+      }
+
+      p {
+        margin: 0.5rem 0;
+      }
+
+      .price {
+        font-weight: bold;
+      }
+    }
+
+    .remove {
+      margin-left: auto;
+      font-weight: bold;
+      color: red;
+      cursor: pointer;
+    }
+  }
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+
+    .totalpricetext {
+      font-weight: bold;
+    }
+
+    .totalprice {
+      font-weight: bold;
+      color: green;
+    }
+  }
+
+  .link {
+    text-decoration: none;
+
+    .checkout {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1rem;
+      background-color: green;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: bold;
+      border: none;
+      border-radius: 0.5rem;
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+      transition: box-shadow 0.2s ease-in-out;
+      margin-top: 2rem;
+
+      &:hover {
+        cursor: pointer;
+        box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4);
+      }
+
+      svg {
+        margin-right: 0.5rem;
+      }
+    }
+  }
+
+  .reset {
+    font-weight: bold;
+    color: red;
+    margin-top: 2rem;
+    cursor: pointer;
+  }
+
+  &.hidden {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .cart {
+    width: 60%;
+    max-height: 500px;
+    overflow-x: scroll;
+    right: 10px;
+    // top: 100px;
+  }
+
+  .item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    img {
+      width: 80%;
+      height: auto;
+      margin-right: 0;
+    }
+
+    .details {
+      h1 {
+        font-size: 1rem;
+        margin-bottom: 0.25rem;
+      }
+
+      p {
+        margin: 0.25rem 0;
+      }
+
+      .price {
+        font-size: 0.8rem;
+      }
+    }
+
+    .remove {
+      margin-left: 0;
+    }
+  }
+
+  .total {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+
+    .totalpricetext {
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .checkout {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+
+  .reset {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .cart {
+    width: 80%;
+    right: 0;
+    top: 130px;
+    padding: 10px;
+  }
+
+  .item {
+    img {
+      width: 70%;
+    }
+
+    .details {
+      h1 {
+        font-size: 0.9rem;
+      }
+
+      p {
+        font-size: 0.8rem;
+      }
+
+      .price {
+        font-size: 0.7rem;
+      }
+    }
+  }
+
+  .total {
+    font-size: 1rem;
+  }
+
+  .checkout {
+    font-size: 0.9rem;
+    padding: 0.8rem;
+  }
+
+  .reset {
+    font-size: 0.9rem;
+  }
+}
