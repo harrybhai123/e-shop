@@ -1,40 +1,5 @@
 # E-Shop
 
-<br/>
-<h1>Screenshot</h1> 
-<br/>
-<h2>Home Page </h2> 
-<br/>
-#1
-<br/>
-<img src="./RedmePic/Home1.png" alt="homeimg"/>
-<br/>
-#2
-<img src="./RedmePic/Home2.png" alt="homeimg"/>
-<br/>
-#3
-<img src="./RedmePic/Home3.png" alt="homeimg"/>
-<br/>
-#4
-<img src="./RedmePic/Home4.png" alt="homeimg"/>
-<br/>
-<h2>HMen Page </h2> 
-<br/>
-#1
-<img src="./RedmePic/Men.png" alt="Menimg"/>
-<br/>
-<h2>Women Page </h2> 
-<br/>
-#1
-<img src="./RedmePic/Women.png" alt="Womenimg"/>
-<br/>
-<h2>Kid Page </h2>
-<br/>
-#1
-<img src="./RedmePic/Kid.png" alt="Kidimg"/>
-
-# E-Shop
-
 This is a demo of an e-commerce website showcasing various features and functionality typically found in an online shop. The purpose of this project is to provide a visual representation of an e-commerce platform and to demonstrate the implementation of key features.
 
 ## Table of Contents
@@ -77,4 +42,29 @@ npm start
 ## Contributing
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please submit a <a href="https://github.com/harrybhai123/e-shop/pulls">pull request</a>. 
 
-<a href="e-shop-harry.netlify.app" > Click Me To See Website</a>
+
+# Screenshot
+
+## Home Page
+#1
+![homeimg](./RedmePic/Home1.png)
+#2
+![homeimg](./RedmePic/Home2.png)
+#3
+![homeimg](./RedmePic/Home3.png)
+#4
+![homeimg](./RedmePic/Home4.png)
+
+<h2>HMen Page </h2> 
+#1
+![Men_img](./RedmePic/Men.png)
+
+<h2>Women Page </h2> 
+#1
+![Womenimg](./RedmePic/Women.png)
+
+<h2>Kid Page </h2>
+#1
+![Kidimg](./RedmePic/Kid.png)
+
+[Visit our website](e-shop-harry.netlify.app)
