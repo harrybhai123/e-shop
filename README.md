@@ -6,7 +6,7 @@
 ##Home Page 
 <br/>
 #1
-<img src="/img/Home1.png" alt="homeimg"/>
+![Home Image](https://harrybhai123.github.io/e-shop/img/Home1.jpg)
 <br/>
 #2
 <img src="/img/Home2.png" alt="homeimg"/>
