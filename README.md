@@ -7,7 +7,7 @@
 <br/>
 #1
 <br/>
-![Home Image](./public/img/Home1.jpg)
+![Home Image](./public/img/Home1.png)
 <br/>
 #2
 <img src="/img/Home2.png" alt="homeimg"/>
