@@ -72,7 +72,7 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ##  Product Details Page
 ### 1
 ![productdetail img](./RedmePic/productdetail.png)
-### 1
+### 2
 ![productdetailcart img](./RedmePic/productdetailcart.png)
 
 
