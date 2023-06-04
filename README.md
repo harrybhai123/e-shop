@@ -67,4 +67,19 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ### 1
 ![Kidimg](./RedmePic/Kid.png)
 
+
+
+##  Product Details Page
+### 1
+![productdetail img](./RedmePic/productdetail.png)
+### 1
+![productdetailcart img](./RedmePic/productdetailcart.png)
+
+
+## Cart🛒 Page
+### 1
+![cartpage img](./RedmePic/cartpage.png)
+### 2
+![cartpayment img](./RedmePic/cartpayment.png)
+
 [Visit our website](e-shop-harry.netlify.app)
