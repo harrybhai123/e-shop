@@ -6,6 +6,7 @@
 ##Home Page 
 <br/>
 #1
+<br/>
 ![Home Image](https://harrybhai123.github.io/e-shop/img/Home1.jpg)
 <br/>
 #2
