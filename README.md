@@ -22,7 +22,7 @@ This is a demo of an e-commerce website showcasing various features and function
 To run this project locally, follow these steps:
 
 1. Clone the repository:
-git clone [https://github.com/your-username/eshop-demo.git](https://github.com/harrybhai123/e-shop.git)
+git clone [https://github.com/harrybhai123/eshop.git](https://github.com/harrybhai123/e-shop.git)
 
 2. Navigate to the project directory:
 cd eshop
